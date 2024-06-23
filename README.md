@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Marcos</h1>
-<h3 align="center">Just postin something here</h3>
+<h3 align="center">Just posting something here do not espect something worthy for the momemnt</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=m4rdom&label=Profile%20views&color=0e75b6&style=flat" alt="m4rdom" /> </p>
 
