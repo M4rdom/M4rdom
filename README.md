@@ -1,7 +1,7 @@
-<h1 align="center">Hi 👋, I'm Marcos</h1>
+<!--<h1 align="center">Hi 👋, I'm Marcos</h1>
 
 <h3 align="center">Mi nombre es Maximo Decimo Meridio, comandante de los ejércitos del norte, general de las legiones Félix. leal, sirviente del único emperador Marco Aurelio, padre de un hijo asesinado, esposo de una esposa asesinada. Y juró que se vengara en esta vida o en otra</h3>
-
+-->
 
 <p align="center">
   <img src="./images/silly_loading.gif" alt="Mi Imagen">
