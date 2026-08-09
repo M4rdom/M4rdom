@@ -1,0 +1,26 @@
+name: Generate metrics dashboard
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@v3.34
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: M4rdom
+          template: classic
+          base: header, community, repositories, metadata
+          plugin_isocalendar: yes
+          plugin_lines: yes

@@ -1,0 +1,27 @@
+name: Generate languages breakdown
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  languages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@v3.34
+        with:
+          filename: languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: M4rdom
+          base: ""
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_threshold: 0%
+          plugin_languages_limit: 0
